@@ -1,0 +1,7 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+div {
+    max-width: 960px;
+    margin: 0 auto;
+}
