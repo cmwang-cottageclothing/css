@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,700&subset=chinese-traditional');
 body {
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Serif TC';
 }
 div {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
+
