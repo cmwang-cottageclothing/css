@@ -2,3 +2,7 @@ div {
   max-width: 1080px;
   margin: 0 auto;
 }
+div img {
+  width: 100%;
+  height: auto;
+}
