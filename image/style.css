@@ -1,8 +1,29 @@
+* {
+  box-sizing: border-box;
+}
 div {
-  max-width: 1080px;
+  width: 100%;
+  padding: 3.5%;
+}
+div figure {
   margin: 0 auto;
 }
 div img {
   width: 100%;
   height: auto;
+  /*display: block;*/
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px
+*/
+
+@media (min-width: 768px) {
+  div {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto;
+    padding: 1%;
+  }
 }
