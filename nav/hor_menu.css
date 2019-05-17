@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+    text-align: center; /* step 6 */
+}
+
+nav li {
+  display: inline-block; /* step 1 */
+  width: 20%; /* step 4 */
+  margin-right: -4px; /* step 5 */
+}
+
+nav a {
+  display: block; /* step 2 */
+  text-decoration: none; /* step 3 */
+}
+
+/* common text style */
+nav a {
+  font-family: sans-serif;
+  height: 3rem; /* vertically center */
+  line-height: 3rem; /* vertically center */
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #005f5f;
+}
+ 
+nav a.active {
+  background-color: #eee;
+  color: #444;
+  cursor: default;
+}
