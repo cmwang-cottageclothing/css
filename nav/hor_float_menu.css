@@ -13,13 +13,13 @@ nav ul {
     padding: 0;
     margin: 0;
     background-color: #444;
-    text-align: center; /* step 5 */
-    overflow: auto; /* step 6 */
+    text-align: center; /* step 4 */
+    overflow: auto; /* step 5 */
 }
 
 nav li {
     float: left; /* step 1 */
-    width: 20%; /* step 4 */
+    width: 20%; /* step 3 */
 }
 
 nav a {
@@ -45,4 +45,9 @@ nav a.active {
     background-color: #eee;
     color: #444;
     cursor: default;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
 }
