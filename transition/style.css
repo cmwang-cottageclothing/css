@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.target {
+    background-color: red;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    transition: width, 0.3s;
+}
+
+.target:hover {
+    width: 80%;
+}
